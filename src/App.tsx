@@ -4,13 +4,11 @@
  */
 
 import { motion } from "motion/react";
-import { Menu, X } from "lucide-react";
-import { useState } from "react";
 
 const fadeIn = {
-  initial: { opacity: 0, y: 20 },
+  initial: { opacity: 0.01, y: 10 },
   animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.8, ease: [0.2, 0, 0, 1] }
+  transition: { duration: 0.6, ease: [0.2, 0, 0, 1] }
 };
 
 const staggerContainer = {
@@ -22,8 +20,6 @@ const staggerContainer = {
 };
 
 export default function App() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
     <div className="min-h-screen bg-paper overflow-x-hidden selection:bg-clay/20">
       {/* Navigation */}

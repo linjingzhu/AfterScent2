@@ -14,7 +14,10 @@
 
 @layer base {
   body {
-    @apply bg-paper text-charcoal font-sans antialiased;
+    background-color: #f9f9f7;
+    color: #1a1c1b;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
   }
 }
 
@@ -23,6 +26,6 @@
 }
 
 .book-shadow {
-  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.2), 
-              1px 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.15), 
+              1px 1px 10px rgba(0, 0, 0, 0.05);
 }
