@@ -46,15 +46,20 @@ export default function App() {
           >
             <motion.h1 
               variants={fadeIn}
-              className="font-serif text-6xl md:text-8xl leading-[1.1] tracking-tight font-light"
+              className="font-serif text-6xl md:text-9xl leading-[1.1] tracking-tight font-light"
             >
-              The Architecture <br /> of Silence.
+              MAHEUN
             </motion.h1>
             <motion.p 
               variants={fadeIn}
-              className="text-lg md:text-xl text-charcoal/70 max-w-lg leading-relaxed"
+              className="text-lg md:text-xl text-charcoal/70 max-w-lg leading-relaxed whitespace-pre-line"
             >
-              A seminal study in spatial negative space and the quiet power of presence. This edition explores the intersection of minimalist design and high-quality editorial content.
+              <span className="block font-serif italic text-2xl text-charcoal mb-4">
+                A Quiet Anatomy of Life After Forty
+              </span>
+              A reflective guide to examining the self, one question at a time.
+              Maheun explores love, work, solitude, money, creation, and the quiet standards
+              by which a life becomes truly one’s own.
             </motion.p>
           </motion.div>
 
@@ -87,7 +92,7 @@ export default function App() {
             >
               <span className="text-[10px] font-bold tracking-[0.3em] uppercase text-clay">The Philosophy</span>
               <h2 className="font-serif text-4xl md:text-5xl leading-tight">
-                Silence is not empty. It is full of answers.
+                The life we built begins to ask who built it.
               </h2>
             </motion.div>
 
@@ -99,10 +104,10 @@ export default function App() {
               className="grid md:grid-cols-2 gap-12 text-charcoal/80 leading-relaxed"
             >
               <p>
-                In a world saturated with noise, we cultivate spaces of deep focus. This folio is designed to recede, allowing the written word to emerge as the sole protagonist. We draw inspiration from the tactile experience of high-end print publishing.
+                There comes a season when achievement loses its volume, and the soul begins to speak in quieter tones. Forty is such a season—not an ending, but a clearing. A place where the past stands beside us, not to accuse, but to be understood.
               </p>
               <p>
-                Every margin, every typographic choice, every moment of whitespace is an intentional invitation to slow down. We publish works that demand reflection, presented in an interface that respects the reader's time and attention.
+                Maheun gathers questions for that clearing. It invites the reader to look again at love, work, solitude, desire, money, memory, and the invisible standards by which a life becomes one’s own.
               </p>
             </motion.div>
           </div>
@@ -136,13 +141,13 @@ export default function App() {
             <h2 className="font-serif text-5xl font-light">Jeongsu</h2>
             <div className="space-y-6 text-charcoal/70 text-lg leading-relaxed">
               <p>
-                Jeongsu is a designer and architectural theorist whose work explores the psychological impact of spatial design. With a background in both philosophy and structural engineering, his writing bridges the gap between the physical and the metaphysical.
+                Jeongsu is a game designer and systems planner who explores how the inner life of a person and the world around them are structured. Moving across game design, 3D graphics, writing, and philosophical reflection, he is interested in transforming invisible emotions and life’s questions into meaningful experiences.
               </p>
               <p>
-                His career has been dedicated to the study of &apos;quiet spaces&apos;—environments that facilitate introspection and clarity in an increasingly loud world. &quot;The Architecture of Silence&quot; is the culmination of a decade spent documenting monastic structures, minimalist homes, and the vast, empty landscapes of the North.
+                His work begins with a central question: “In what kind of world does a person change?” Centered on action RPGs and interactive storytelling, he seeks to create experiences where players do more than simply consume entertainment—they are invited to reconsider their choices, desires, wounds, and relationships. At the same time, he continues to experiment with new forms of expression at the boundary between technology and art, systems and emotion, reality and imagination.
               </p>
               <p>
-                Currently based in a remote coastal town in Scandinavia, Jeongsu continues to write on the necessity of restraint in modern life, advocating for a return to craftsmanship, intentionality, and the luxury of focus.
+                His writing is a personal map for those who wish to reexamine life after forty. It asks whether we have lived well, what standards should guide us forward, and what we should hold onto among love and work, money and creation, solitude and growth. Jeongsu sees life as a world of its own, and continues to record it in order to build that world with greater depth and strength.
               </p>
             </div>
           </motion.div>
