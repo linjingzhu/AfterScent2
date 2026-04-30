@@ -48,14 +48,12 @@ export default function App() {
             </motion.h1>
             <motion.p 
               variants={fadeIn}
-              className="text-lg md:text-xl text-charcoal/70 max-w-lg leading-relaxed whitespace-pre-line"
+              className="text-lg md:text-xl text-charcoal/70 max-w-lg leading-relaxed"
             >
               <span className="block font-serif italic text-2xl text-charcoal mb-4">
                 A Quiet Anatomy of Life After Forty
               </span>
-              A reflective guide to examining the self, one question at a time.
-              Maheun explores love, work, solitude, money, creation, and the quiet standards
-              by which a life becomes truly one’s own.
+              A reflective guide to examining the self, one question at a time. Maheun explores love, work, solitude, money, creation, and the quiet standards by which a life becomes truly one’s own.
             </motion.p>
           </motion.div>
 
