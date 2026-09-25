@@ -1,0 +1,2 @@
+# Repository identity must stay in instance files, not shared policy.
+linjingzhu/AfterScent2
